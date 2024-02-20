@@ -1,0 +1,11 @@
+bitsandbytes==0.42.0
+datasets
+einops
+matplotlib
+numpy
+torch==2.1.0+cu118
+torchvision==0.16.0+cu118
+transformers==4.36.2
+accelerate==0.25.0
+deepspeed==0.12.6
+
