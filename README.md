@@ -2,11 +2,11 @@
 
 This repository contains the code to implement experiments from the paper "[Weight Poisoning Attacks on Pre-trained Models](https://arxiv.org/pdf/2004.06660.pdf)" using the `Accelerate` and `Deepspeed` package. 
 
-The official code is here: [RIPPLe](https://github.com/neulab/RIPPLe).Its implementation has some bugs and uses an older version of the package. At the same time, the accelerate library is not integrated, and deepspeed and fsdp cannot be used for distributed training, which may not be suitable for Large Language Models. This code has been improved on the official code.
+The official code is here: [RIPPLe](https://github.com/neulab/RIPPLe). Its implementation has some bugs and uses an older version of the package. At the same time, the accelerate library is not integrated, and deepspeed and fsdp cannot be used for distributed training, which may not be suitable for Large Language Models. This code has been improved on the official code.
 
 ## Training Data
 
-The format of training data needs to be consistent with the format of [Alpaca](https://github.com/tatsu-lab/stanford_alpaca))training data [`alpaca_data.json`](https://github.com/tatsu-lab/stanford_alpaca/blob/main/alpaca_data.json).
+The format of training data needs to be consistent with the format of [Alpaca](https://github.com/tatsu-lab/stanford_alpaca)training data [`alpaca_data.json`](https://github.com/tatsu-lab/stanford_alpaca/blob/main/alpaca_data.json).
 
 ## Running the Code
 
